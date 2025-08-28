@@ -1,0 +1,1 @@
+export default function Blog(){return <main className='p-10'><h1 className='text-3xl font-bold'>Blog</h1><p>Posts coming soon…</p></main>}

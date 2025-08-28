@@ -1,0 +1,1 @@
+export default function Contact(){return <main className='p-10'><h1 className='text-3xl font-bold'>Contact</h1><p>Email: <a href='mailto:hello@softourtech.com'>hello@softourtech.com</a></p></main>}

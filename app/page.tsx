@@ -1,0 +1,1 @@
+export default function Page(){return <main className='p-10'><h1 className='text-4xl font-bold'>Softourtech Landing</h1><p className='mt-2'>Welcome to Softourtech premium site starter.</p></main>}

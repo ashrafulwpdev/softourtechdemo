@@ -1,0 +1,1 @@
+export default function Work(){return <main className='p-10'><h1 className='text-3xl font-bold'>Work</h1><p>Case studies coming soon…</p></main>}
