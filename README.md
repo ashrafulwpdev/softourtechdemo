@@ -1,1 +1,1 @@
-# Softourtech Full Site Starter\n\nInstall deps with `npm install` and run `npm run dev`.\n
+# Softourtech Pro Site\n\nLight/Dark theme, premium landing, pricing, contact form, work & blog.\n
