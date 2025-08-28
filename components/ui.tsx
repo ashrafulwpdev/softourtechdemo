@@ -1,13 +1,13 @@
-'use client';
-import { motion } from 'framer-motion';
-import { ArrowRight, Moon, Sun } from 'lucide-react';
-import React from 'react';
+﻿"use client";
+import { motion } from "framer-motion";
+import { ArrowRight, Moon, Sun } from "lucide-react";
+import React from "react";
 
-export function Container({ children, className = '' }: React.PropsWithChildren<{ className?: string }>) {
+export function Container({ children, className = "" }: React.PropsWithChildren<{ className?: string }>) {
   return <div className={`container-xl ${className}`}>{children}</div>;
 }
 
-export function CTA({ href = '#', children }: { href?: string; children: React.ReactNode }) {
+export function CTA({ href = "#", children }: { href?: string; children: React.ReactNode }) {
   return (
     <a
       href={href}
@@ -24,7 +24,7 @@ export const FadeUp: React.FC<React.PropsWithChildren<{ delay?: number }>> = ({ 
   </motion.div>
 );
 
-export function Card({ className = '', children }: React.PropsWithChildren<{ className?: string }>) {
+export function Card({ className = "", children }: React.PropsWithChildren<{ className?: string }>) {
   return <div className={`rounded-2xl border border-black/10 dark:border-white/10 bg-[rgb(var(--card))] p-6 ${className}`}>{children}</div>;
 }
 
@@ -44,10 +44,10 @@ export function ThemeToggle() {
 
   React.useEffect(() => {
     setMounted(true);
-    const saved = localStorage.getItem('theme');
-    const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
-    const isDark = saved ? saved === 'dark' : prefersDark;
-    document.documentElement.classList.toggle('dark', isDark);
+    const saved = localStorage.getItem("theme");
+    const prefersDark = window.matchMedia("(prefers-color-scheme: dark)").matches;
+    const isDark = saved ? saved === "dark" : prefersDark;
+    document.documentElement.classList.toggle("dark", isDark);
     setDark(isDark);
   }, []);
 
@@ -56,8 +56,8 @@ export function ThemeToggle() {
   const toggle = () => {
     const next = !dark;
     setDark(next);
-    document.documentElement.classList.toggle('dark', next);
-    localStorage.setItem('theme', next ? 'dark' : 'light');
+    document.documentElement.classList.toggle("dark", next);
+    localStorage.setItem("theme", next ? "dark" : "light");
   };
 
   return (
@@ -67,7 +67,7 @@ export function ThemeToggle() {
       className="inline-flex items-center gap-2 rounded-xl border border-black/10 dark:border-white/10 bg-black/5 dark:bg-white/5 px-3 py-2 text-sm"
     >
       {dark ? <Sun className="h-4 w-4" /> : <Moon className="h-4 w-4" />}
-      <span className="hidden sm:inline">{dark ? 'Light' : 'Dark'} mode</span>
+      <span className="hidden sm:inline">{dark ? "Light" : "Dark"} mode</span>
     </button>
   );
 }

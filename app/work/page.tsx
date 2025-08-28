@@ -1,10 +1,10 @@
-import { Container, Card } from '@/components/ui';
+﻿import { Container, Card } from "@/components/ui";
 
 const projects = [
-  { title: 'SaaS Dashboard', stack: 'Next.js • Tailwind • Vercel', desc: 'Admin analytics with SSR and caching.' },
-  { title: 'Android Ecommerce', stack: 'Kotlin • Retrofit • Firebase', desc: 'Modern Android app with payments.' },
-  { title: 'WP Corporate Site', stack: 'WordPress • OpenLiteSpeed', desc: 'Custom theme with 95+ Lighthouse.' },
-  { title: 'DevOps Pipeline', stack: 'Docker • CI/CD • Cloudflare', desc: 'Blue/green deploys & observability.' },
+  { title: "SaaS Dashboard",     stack: "Next.js • Tailwind • Vercel",     desc: "Admin analytics with SSR and caching." },
+  { title: "Android Ecommerce",  stack: "Kotlin • Retrofit • Firebase",    desc: "Modern Android app with payments." },
+  { title: "WP Corporate Site",  stack: "WordPress • OpenLiteSpeed",       desc: "Custom theme with 95+ Lighthouse." },
+  { title: "DevOps Pipeline",    stack: "Docker • CI/CD • Cloudflare",     desc: "Blue/green deploys & observability." },
 ];
 
 export default function Work(){
@@ -26,5 +26,5 @@ export default function Work(){
         </Container>
       </section>
     </main>
-  )
+  );
 }

@@ -1,6 +1,6 @@
-import { Container, Card } from '@/components/ui';
+﻿import { Container, Card } from "@/components/ui";
 
-const FORMSPREE_ENDPOINT = 'https://formspree.io/f/your_form_id'; // replace with your Formspree form ID
+const FORMSPREE_ENDPOINT = "https://formspree.io/f/your_form_id"; // replace with your real endpoint
 
 export default function Contact(){
   return (
@@ -31,5 +31,5 @@ export default function Contact(){
         </Container>
       </section>
     </main>
-  )
+  );
 }

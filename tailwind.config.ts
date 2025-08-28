@@ -1,4 +1,4 @@
-import type { Config } from 'tailwindcss'
+﻿import type { Config } from 'tailwindcss'
 
 export default {
   darkMode: 'class',
@@ -9,10 +9,7 @@ export default {
   theme: {
     extend: {
       colors: {
-        bg: {
-          light: "#ffffff",
-          dark: "#0b1220"
-        }
+        bg: { light: "#ffffff", dark: "#0b1220" }
       }
     }
   },

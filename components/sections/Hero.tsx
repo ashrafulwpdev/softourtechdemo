@@ -1,6 +1,6 @@
-'use client';
-import { Container, CTA, FadeUp } from '@/components/ui';
-import { Sparkles } from 'lucide-react';
+﻿"use client";
+import { Container, CTA, FadeUp } from "@/components/ui";
+import { Sparkles } from "lucide-react";
 
 export function Hero() {
   return (
@@ -35,7 +35,7 @@ export function Hero() {
         </FadeUp>
         <FadeUp delay={0.4}>
           <div className="mt-14 grid grid-cols-2 items-center gap-6 opacity-80 sm:grid-cols-3 md:grid-cols-6">
-            {['next.js', 'react', 'android', 'openlitespeed', 'vercel', 'cloudflare'].map(k => (
+            {["next.js", "react", "android", "openlitespeed", "vercel", "cloudflare"].map(k => (
               <div key={k} className="rounded-xl border border-black/10 bg-black/5 px-4 py-3 text-center text-xs uppercase tracking-wide text-slate-600 dark:border-white/10 dark:bg-white/5 dark:text-slate-300">
                 {k}
               </div>

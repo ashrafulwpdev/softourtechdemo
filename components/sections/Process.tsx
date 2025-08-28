@@ -1,13 +1,13 @@
-'use client';
-import { Container, FadeUp, Step } from '@/components/ui';
+﻿"use client";
+import { Container, FadeUp, Step } from "@/components/ui";
 
 const steps = [
-  { id: '01', title: 'Discovery', desc: 'Goals, constraints, tech choices, milestones.' },
-  { id: '02', title: 'Design',    desc: 'Wireframes → UI → content structure & states.' },
-  { id: '03', title: 'Build',     desc: 'Components, pages, API routes, Android modules.' },
-  { id: '04', title: 'Deploy',    desc: 'Vercel/Cloudflare or VPS (Webuzo/OLS) with CI/CD.' },
-  { id: '05', title: 'Measure',   desc: 'RUM, SEO, performance budgets, error tracking.' },
-  { id: '06', title: 'Iterate',   desc: 'Feature updates, patches, support SLAs.' },
+  { id: "01", title: "Discovery", desc: "Goals, constraints, tech choices, milestones." },
+  { id: "02", title: "Design",    desc: "Wireframes → UI → content structure & states." },
+  { id: "03", title: "Build",     desc: "Components, pages, API routes, Android modules." },
+  { id: "04", title: "Deploy",    desc: "Vercel/Cloudflare or VPS (Webuzo/OLS) with CI/CD." },
+  { id: "05", title: "Measure",   desc: "RUM, SEO, performance budgets, error tracking." },
+  { id: "06", title: "Iterate",   desc: "Feature updates, patches, support SLAs." },
 ];
 
 export function Process() {

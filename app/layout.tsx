@@ -1,12 +1,12 @@
-import type { Metadata } from 'next'
-import './globals.css'
-import { Container, ThemeToggle } from '@/components/ui'
-import Link from 'next/link'
+﻿import type { Metadata } from "next";
+import "./globals.css";
+import { Container, ThemeToggle } from "@/components/ui";
+import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: 'Softourtech — Premium Websites, Android & DevOps',
-  description: 'Softourtech crafts premium websites (Next.js/WordPress), Android apps, and reliable DevOps on your VPS.',
-}
+  title: "Softourtech — Premium Websites, Android & DevOps",
+  description: "Softourtech crafts premium websites (Next.js/WordPress), Android apps, and reliable DevOps on your VPS.",
+};
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
@@ -29,12 +29,16 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
             <div className="md:hidden"><ThemeToggle /></div>
           </Container>
         </header>
+
         {children}
+
         <footer className="border-t border-black/10 bg-white dark:border-white/10 dark:bg-slate-950">
           <Container className="py-8 text-center text-sm text-slate-600 dark:text-slate-400">
             © {new Date().getFullYear()} Softourtech. All rights reserved.
           </Container>
         </footer>
+
+        {/* initial theme script */}
         <script dangerouslySetInnerHTML={{__html:`
           (function() {
             try {
@@ -46,5 +50,5 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         `}}/>
       </body>
     </html>
-  )
+  );
 }

@@ -1,21 +1,23 @@
-@tailwind base;
+﻿@tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 html { color-scheme: light dark; }
 
+/* Light mode */
 :root {
   --bg: 255 255 255;
-  --fg: 15 23 42;
-  --muted: 100 116 139;
-  --card: 248 250 252;
+  --fg: 15 23 42;       /* slate-900 */
+  --muted: 100 116 139; /* slate-500 */
+  --card: 248 250 252;  /* slate-50 */
 }
 
+/* Dark mode */
 html.dark {
-  --bg: 2 6 23;
-  --fg: 241 245 249;
-  --muted: 148 163 184;
-  --card: 15 23 42;
+  --bg: 2 6 23;         /* slate-950 */
+  --fg: 241 245 249;    /* slate-100 */
+  --muted: 148 163 184; /* slate-400 */
+  --card: 15 23 42;     /* slate-900 */
 }
 
 html, body {

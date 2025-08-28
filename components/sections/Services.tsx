@@ -1,14 +1,14 @@
-'use client';
-import { Container, FadeUp, Card } from '@/components/ui';
-import { Code2, Smartphone, Globe, Server, GaugeCircle, ShieldCheck } from 'lucide-react';
+﻿"use client";
+import { Container, FadeUp, Card } from "@/components/ui";
+import { Code2, Smartphone, Globe, Server, GaugeCircle, ShieldCheck } from "lucide-react";
 
 const items = [
-  { icon: Code2,     title: 'Web Apps (Next.js)',  desc: 'SEO-ready, ultra fast. SSR/SSG, API routes, CMS-friendly.' },
-  { icon: Globe,     title: 'WordPress Sites',     desc: 'Clean themes, speed tuned, secure, custom blocks.' },
-  { icon: Smartphone,title: 'Android Apps',        desc: 'Java/Kotlin apps with modern architecture & Play Store ready.' },
-  { icon: Server,    title: 'VPS & DevOps',        desc: 'OpenLiteSpeed/Nginx, Docker, CI/CD, backups, monitoring.' },
-  { icon: GaugeCircle,title:'Performance',         desc: 'Lighthouse wins: caching, image optimization, edge delivery.' },
-  { icon: ShieldCheck,title:'Security & SSL',      desc: 'Hardened configs, WAF/CDN, HTTPS, uptime checks.' },
+  { icon: Code2,     title: "Web Apps (Next.js)",  desc: "SEO-ready, ultra fast. SSR/SSG, API routes, CMS-friendly." },
+  { icon: Globe,     title: "WordPress Sites",     desc: "Clean themes, speed tuned, secure, custom blocks." },
+  { icon: Smartphone,title: "Android Apps",        desc: "Java/Kotlin apps with modern architecture & Play Store ready." },
+  { icon: Server,    title: "VPS & DevOps",        desc: "OpenLiteSpeed/Nginx, Docker, CI/CD, backups, monitoring." },
+  { icon: GaugeCircle,title:"Performance",         desc: "Lighthouse wins: caching, image optimization, edge delivery." },
+  { icon: ShieldCheck,title:"Security & SSL",      desc: "Hardened configs, WAF/CDN, HTTPS, uptime checks." },
 ];
 
 export function Services() {

@@ -1,9 +1,9 @@
-import { Container, Card } from '@/components/ui';
+﻿import { Container, Card } from "@/components/ui";
 
 const posts = [
-  { title: 'Why Next.js + Vercel is a perfect fit for SMEs', date: '2025-08-01', excerpt: 'Speed, DX, and SSR/SSG flexibility explained in plain terms.' },
-  { title: 'OpenLiteSpeed Reverse Proxy for Node — a quick guide', date: '2025-07-22', excerpt: 'Configure External App and Proxy Context the right way.' },
-  { title: 'Android app architecture that scales', date: '2025-06-10', excerpt: 'Layers, testing, and packaging for long-term maintainability.' },
+  { title: "Why Next.js + Vercel is a perfect fit for SMEs", date: "2025-08-01", excerpt: "Speed, DX, and SSR/SSG flexibility explained in plain terms." },
+  { title: "OpenLiteSpeed Reverse Proxy for Node — a quick guide", date: "2025-07-22", excerpt: "Configure External App and Proxy Context the right way." },
+  { title: "Android app architecture that scales", date: "2025-06-10", excerpt: "Layers, testing, and packaging for long-term maintainability." },
 ];
 
 export default function Blog(){
@@ -25,5 +25,5 @@ export default function Blog(){
         </Container>
       </section>
     </main>
-  )
+  );
 }
